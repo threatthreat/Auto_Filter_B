@@ -14,6 +14,8 @@ from Script import script
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
 from database.refer import referdb
 from database.users_chats_db import db
+from info import PAID_STREAM
+from database import db
 import asyncio
 import re
 import math
@@ -1461,42 +1463,63 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer("Yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ sᴇᴇ ᴛʜɪꜱ ❌", show_alert=True)
 
     elif DreamxData.startswith("generate_stream_link"):
-        _, file_id = DreamxData.split(":")
-        try:
-            user_id = query.from_user.id
-            username = query.from_user.mention
-            log_msg = await client.send_cached_media(chat_id=LOG_CHANNEL, file_id=file_id,)
-            fileName = {quote_plus(get_name(log_msg))}
-            dreamx_stream = f"{URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
-            dreamx_download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
-            xo = await query.message.reply_text(f'💘')
-            await asyncio.sleep(1)
-            await xo.delete()
-            await log_msg.reply_text(
-                text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
-                quote=True,
-                disable_web_page_preview=True,
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=dreamx_download),  # we download Link
-                                                    InlineKeyboardButton('🖥️ Watch online 🖥️', url=dreamx_stream)]])  # web stream Link
-            )
-            dreamcinezone = await query.edit_message_reply_markup(
-                reply_markup=InlineKeyboardMarkup([
-                    [
-                        InlineKeyboardButton("🚀 Download ", url=dreamx_download),
-                        InlineKeyboardButton('🖥️ Watch ', url=dreamx_stream)
-                    ],
-                    [
-                        InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=UPDATE_CHNL_LNK)
-                    ]
-                ])
-            )
-            await asyncio.sleep(DELETE_TIME)
-            await dreamcinezone.delete()
-            return
-        except Exception as e:
-            print(e)
-            await query.answer(f"⚠️ SOMETHING WENT WRONG STREAM LINK  \n\n{e}", show_alert=True)
-            return
+    _, file_id = DreamxData.split(":")
+    try:
+        user_id = query.from_user.id
+        username = query.from_user.mention
+
+        # ✅ Import PAID_STREAM + db at top of pmfilter.py
+        # from info import PAID_STREAM
+        # from database import db
+
+        # 🔐 Premium Check
+        if PAID_STREAM:
+            is_premium_user = await db.has_premium_access(user_id)
+            if not is_premium_user:
+                premium_btn = [[InlineKeyboardButton("🚀 Buy Premium 🚀", callback_data="premium_info")]]
+                await query.answer("⚠️ This feature is only for Premium users.", show_alert=True)
+                await query.message.reply(
+                    "<b>📌 This feature is only available for Premium users.\n\nBuy Premium to unlock ✅</b>",
+                    reply_markup=InlineKeyboardMarkup(premium_btn)
+                )
+                return
+
+        # If premium → continue normally
+        log_msg = await client.send_cached_media(chat_id=LOG_CHANNEL, file_id=file_id,)
+        fileName = {quote_plus(get_name(log_msg))}
+        dreamx_stream = f"{URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
+        dreamx_download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
+
+        xo = await query.message.reply_text(f'💘')
+        await asyncio.sleep(1)
+        await xo.delete()
+
+        await log_msg.reply_text(
+            text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
+            quote=True,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup([
+                [InlineKeyboardButton("🚀 Fast Download 🚀", url=dreamx_download),
+                 InlineKeyboardButton('🖥️ Watch online 🖥️', url=dreamx_stream)]
+            ])
+        )
+
+        dreamcinezone = await query.edit_message_reply_markup(
+            reply_markup=InlineKeyboardMarkup([
+                [InlineKeyboardButton("🚀 Download ", url=dreamx_download),
+                 InlineKeyboardButton('🖥️ Watch ', url=dreamx_stream)],
+                [InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=UPDATE_CHNL_LNK)]
+            ])
+        )
+        await asyncio.sleep(DELETE_TIME)
+        await dreamcinezone.delete()
+        return
+
+    except Exception as e:
+        print(e)
+        await query.answer(f"⚠️ SOMETHING WENT WRONG STREAM LINK  \n\n{e}", show_alert=True)
+        return
+
         
         
     elif query.data == "prestream":
