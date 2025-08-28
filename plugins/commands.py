@@ -298,7 +298,8 @@ async def start(client, message):
                     text=msg.format(message.from_user.mention),
                     protect_content = True,
                     reply_markup=reply_markup,
-                    parse_mode=enums.ParseMode.HTML
+                    parse_mode=enums.ParseMode.HTML,
+                    disable_web_page_preview=True
                 )
                 await asyncio.sleep(300) 
                 await n.delete()
