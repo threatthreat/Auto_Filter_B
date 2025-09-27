@@ -1,17 +1,23 @@
 class script(object):
-    START_TXT = """<b><u>🚩 ᴊᴀɪ ꜱʜʀɪ ʀᴀᴍ 🚩</u></b>
+    START_TXT = """<b><u>❤️‍🩹 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗩𝗶𝗯𝗲𝗿𝗼𝘅 𝗚𝗿𝗼𝘂𝗽 ❤️‍🩹</u></b>
 
 <b>ʜᴇʏ {}, {}</b>
 
 <b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.</b>
+
+<b>🔗 Visit us: <a href="https://Viberox.xyz">Viberox.xyz</a></b>
 """
 
 
-    GSTART_TXT = """<b>🚩 ᴊᴀɪ ꜱʜʀɪ ʀᴀᴍ 🚩</b>
+    GSTART_TXT = """<b>❤️‍🩹 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗩𝗶𝗯𝗲𝗿𝗼𝘅 𝗚𝗿𝗼𝘂𝗽 ❤️‍🩹</b>
 
 <b>ʜᴇʏ {},</b>
 
-<b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.</b>"""
+<b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.</b>
+
+<b>🔗 Visit us: <a href="https://Viberox.xyz">Viberox.xyz</a></b>
+"""
+
 
     
     HELP_TXT = """<b>
@@ -270,28 +276,26 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
     PREMIUM_TEXT = """<blockquote>🎖️ <b>ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs</b></blockquote>
 
-
-◉ 07 ᴅᴀʏꜱ - 10 ₹  / 10 ꜱᴛᴀʀ
-◉ 15 ᴅᴀʏꜱ - 20 ₹  / 20 ꜱᴛᴀʀ
-◉ 30 ᴅᴀʏꜱ - 40 ₹  / 40 ꜱᴛᴀʀ
-◉ 45 ᴅᴀʏꜱ - 55 ₹  / 55 ꜱᴛᴀʀ
-◉ 60 ᴅᴀʏꜱ - 75 ₹  / 75 ꜱᴛᴀʀ
+🏅  Tɪᴇʀ Pʟᴀɴꜱ
+🥉 Bronze        – ₹40      = 1 ᴍᴏɴᴛʜ      (40 ꜱᴛᴀʀꜱ)
+🥈 Silver            – ₹75     = 2 ᴍᴏɴᴛʜꜱ    (75 ꜱᴛᴀʀꜱ)
+🥇 Gold             – ₹110   = 3 ᴍᴏɴᴛʜꜱ    (110 ꜱᴛᴀʀꜱ)
+💎 Diamond    – ₹200   = 6 ᴍᴏɴᴛʜꜱ    (200 ꜱᴛᴀʀꜱ)
+🏆 Platinum    – ₹600   = ʟɪꜰᴇᴛɪᴍᴇ     (600 ꜱᴛᴀʀꜱ)
 
 •─────•─────────•─────•
-🏷️ <a href='https://t.me/dreamxbotz'>ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʀᴏᴏꜰ</a>
+🏷️ <a href='https://t.me/+W5J3PRgP44JiZmRl'>ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʀᴏᴏꜰ</a>
 
 ‼️ ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
-‼️ ᴀꜰᴛᴇʀ ꜱᴇɴᴅɪɴɢ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇꜱ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ."""
+‼️ ᴀꜰᴛᴇʀ ꜱᴇɴᴅɪɴɢ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇꜱ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ.
 
-    PREMIUM_STAR_TEXT = """<b><blockquote>ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ: ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛᴀʀꜱ ⭐</blockquote>
-
-ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ꜱᴇʀᴠɪᴄᴇ ᴜꜱɪɴɢ ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛᴀʀꜱ.  
-
-ɪꜰ ʏᴏᴜ ꜰᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ, ᴛᴀᴋᴇ ᴀ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀɴᴅ ꜱᴇɴᴅ ɪᴛ ᴛᴏ - @deendayal_Support_group
-
-ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴅᴇꜱɪʀᴇᴅ ᴀᴍᴏᴜɴᴛ ᴀɴᴅ ᴘᴜʀᴄʜᴀꜱᴇ ᴀ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 👇.</b>
+<b>🔰 Select Language:</b><br><br>
+🔸 <a href="https://telegra.ph/%E0%AE%AE%E0%AE%B5-%E0%AE%B2%E0%AE%B5%E0%AE%B0%E0%AE%B8%E0%AE%95%E0%AE%95-%E0%AE%92%E0%AE%B0-%E0%AE%9A%E0%AE%AA%E0%AE%AA%E0%AE%B0-%E0%AE%83%E0%AE%AA%E0%AE%B0-05-24-2">Tamil</a><br>
+🔸 <a href="https://telegra.ph/%E0%AE%AE%E0%AE%B5-%E0%AE%B2%E0%AE%B5%E0%AE%B0%E0%AE%B8%E0%AE%95%E0%AE%95-%E0%AE%92%E0%AE%B0-%E0%AE%9A%E0%AE%AA%E0%AE%AA%E0%AE%B0-%E0%AE%83%E0%AE%AA%E0%AE%B0-05-24">Hindi</a><br>
+🔸 <a href="https://telegra.ph/%E0%B4%B8%E0%B4%A8%E0%B4%AE-%E0%B4%AA%E0%B4%B0%E0%B4%AE%E0%B4%95%E0%B5%BE%E0%B4%95%E0%B4%95%E0%B4%AF-%E0%B4%92%E0%B4%B0-%E0%B4%B8%E0%B4%AA%E0%B4%AA%E0%B5%BC-%E0%B4%93%E0%B4%AB%E0%B5%BC-05-24">Malayalam</a><br>
+🔸 <a href="https://telegra.ph/%E0%B4%B8%E0%B4%A8%E0%B4%AE-%E0%B4%AA%E0%B4%B0%E0%B4%AE%E0%B4%95%E0%B5%BE%E0%B4%95%E0%B4%95%E0%B4%AF-%E0%B4%92%E0%B4%B0-%E0%B4%B8%E0%B4%AA%E0%B4%AA%E0%B5%BC-%E0%B4%93%E0%B4%AB%E0%B5%BC-05-24-2">Telugu</a>
 """
-
+    
     PREMIUM_UPI_TEXT = """<b><blockquote>ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ: ᴜᴘɪ</blockquote>
 
 ʏᴏᴜ ᴄᴀɴ ᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴛʜʀᴏᴜɢʜ ᴜᴘɪ , ɴᴇᴛ ʙᴀɴᴋɪɴɢ.
