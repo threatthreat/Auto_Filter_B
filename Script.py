@@ -5,7 +5,7 @@ class script(object):
 
 <b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.</b>
 
-<b>🔗 Visit us: <a href="https://Viberox.xyz">Viberox.xyz</a></b>
+<b>🔗 Mᴏᴠɪᴇ ᴡᴇʙsɪᴛᴇ: <a href="https://Viberox.xyz">Viberox.xyz</a></b>
 """
 
 
@@ -15,7 +15,7 @@ class script(object):
 
 <b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.</b>
 
-<b>🔗 Visit us: <a href="https://Viberox.xyz">Viberox.xyz</a></b>
+<b>🔗 Mᴏᴠɪᴇ ᴡᴇʙsɪᴛᴇ: <a href="https://Viberox.xyz">Viberox.xyz</a></b>
 """
 
 
