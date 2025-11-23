@@ -286,25 +286,18 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 •─────•─────────•─────•
 🏷️ <a href='https://t.me/+W5J3PRgP44JiZmRl'>ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʀᴏᴏꜰ</a>
 
-‼️ ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
-‼️ ᴀꜰᴛᴇʀ ꜱᴇɴᴅɪɴɢ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇꜱ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ.
-
-<b>🔰 Select Language:</b><br><br>
-🔸 <a href="https://telegra.ph/%E0%AE%AE%E0%AE%B5-%E0%AE%B2%E0%AE%B5%E0%AE%B0%E0%AE%B8%E0%AE%95%E0%AE%95-%E0%AE%92%E0%AE%B0-%E0%AE%9A%E0%AE%AA%E0%AE%AA%E0%AE%B0-%E0%AE%83%E0%AE%AA%E0%AE%B0-05-24-2">Tamil</a><br>
-🔸 <a href="https://telegra.ph/%E0%AE%AE%E0%AE%B5-%E0%AE%B2%E0%AE%B5%E0%AE%B0%E0%AE%B8%E0%AE%95%E0%AE%95-%E0%AE%92%E0%AE%B0-%E0%AE%9A%E0%AE%AA%E0%AE%AA%E0%AE%B0-%E0%AE%83%E0%AE%AA%E0%AE%B0-05-24">Hindi</a><br>
-🔸 <a href="https://telegra.ph/%E0%B4%B8%E0%B4%A8%E0%B4%AE-%E0%B4%AA%E0%B4%B0%E0%B4%AE%E0%B4%95%E0%B5%BE%E0%B4%95%E0%B4%95%E0%B4%AF-%E0%B4%92%E0%B4%B0-%E0%B4%B8%E0%B4%AA%E0%B4%AA%E0%B5%BC-%E0%B4%93%E0%B4%AB%E0%B5%BC-05-24">Malayalam</a><br>
-🔸 <a href="https://telegra.ph/%E0%B4%B8%E0%B4%A8%E0%B4%AE-%E0%B4%AA%E0%B4%B0%E0%B4%AE%E0%B4%95%E0%B5%BE%E0%B4%95%E0%B4%95%E0%B4%AF-%E0%B4%92%E0%B4%B0-%E0%B4%B8%E0%B4%AA%E0%B4%AA%E0%B5%BC-%E0%B4%93%E0%B4%AB%E0%B5%BC-05-24-2">Telugu</a>
+<b>📞 To purchase any plan, contact: @TylerDurden_T4</b>
 """
-    
-    PREMIUM_UPI_TEXT = """<b><blockquote>ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ: ᴜᴘɪ</blockquote>
 
-ʏᴏᴜ ᴄᴀɴ ᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴛʜʀᴏᴜɢʜ ᴜᴘɪ , ɴᴇᴛ ʙᴀɴᴋɪɴɢ.
+    PREMIUM_STAR_TEXT = """<b><blockquote>ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ: ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛᴀʀꜱ ⭐</blockquote>
 
-💳 ᴜᴘɪ ɪᴅ - <code>{}</code>
+ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ꜱᴇʀᴠɪᴄᴇ ᴜꜱɪɴɢ ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛᴀʀꜱ.  
 
-💢 ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
+ɪꜰ ʏᴏᴜ ꜰᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ, ᴛᴀᴋᴇ ᴀ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀɴᴅ ꜱᴇɴᴅ ɪᴛ ᴛᴏ - @TylerDurden_T4
 
-‼️ ᴀꜰᴛᴇʀ ꜱᴇɴᴅɪɴɢ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴘʟᴇᴀꜱᴇ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ.</b>"""
+ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴅᴇꜱɪʀᴇᴅ ᴀᴍᴏᴜɴᴛ ᴀɴᴅ ᴘᴜʀᴄʜᴀꜱᴇ ᴀ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 👇.</b>
+"""
+
 
 
     PREMIUM_END_TEXT = """<b>ʜᴇʏ {},</b>
@@ -353,34 +346,27 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 •─────•─────────•─────•
 🏷️ <a href='https://t.me/+W5J3PRgP44JiZmRl'>ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʀᴏᴏꜰ</a>
 
-‼️ ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
-‼️ ᴀꜰᴛᴇʀ ꜱᴇɴᴅɪɴɢ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇꜱ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ.
-
-<b>🔰 Select Language:</b><br><br>
-🔸 <a href="https://telegra.ph/%E0%AE%AE%E0%AE%B5-%E0%AE%B2%E0%AE%B5%E0%AE%B0%E0%AE%B8%E0%AE%95%E0%AE%95-%E0%AE%92%E0%AE%B0-%E0%AE%9A%E0%AE%AA%E0%AE%AA%E0%AE%B0-%E0%AE%83%E0%AE%AA%E0%AE%B0-05-24-2">Tamil</a><br>
-🔸 <a href="https://telegra.ph/%E0%AE%AE%E0%AE%B5-%E0%AE%B2%E0%AE%B5%E0%AE%B0%E0%AE%B8%E0%AE%95%E0%AE%95-%E0%AE%92%E0%AE%B0-%E0%AE%9A%E0%AE%AA%E0%AE%AA%E0%AE%B0-%E0%AE%83%E0%AE%AA%E0%AE%B0-05-24">Hindi</a><br>
-🔸 <a href="https://telegra.ph/%E0%B4%B8%E0%B4%A8%E0%B4%AE-%E0%B4%AA%E0%B4%B0%E0%B4%AE%E0%B4%95%E0%B5%BE%E0%B4%95%E0%B4%95%E0%B4%AF-%E0%B4%92%E0%B4%B0-%E0%B4%B8%E0%B4%AA%E0%B4%AA%E0%B5%BC-%E0%B4%93%E0%B4%AB%E0%B5%BC-05-24">Malayalam</a><br>
-🔸 <a href="https://telegra.ph/%E0%B4%B8%E0%B4%A8%E0%B4%AE-%E0%B4%AA%E0%B4%B0%E0%B4%AE%E0%B4%95%E0%B5%BE%E0%B4%95%E0%B4%95%E0%B4%AF-%E0%B4%92%E0%B4%B0-%E0%B4%B8%E0%B4%AA%E0%B4%AA%E0%B5%BC-%E0%B4%93%E0%B4%AB%E0%B5%BC-05-24-2">Telugu</a>
+<b>📞 To purchase any plan, contact: @TylerDurden_T4</b>
 """
+
 
     PREMIUM_STAR_TEXT = """<b><blockquote>ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ: ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛᴀʀꜱ ⭐</blockquote>
 
 ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ꜱᴇʀᴠɪᴄᴇ ᴜꜱɪɴɢ ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛᴀʀꜱ.  
 
-ɪꜰ ʏᴏᴜ ꜰᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ, ᴛᴀᴋᴇ ᴀ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀɴᴅ ꜱᴇɴᴅ ɪᴛ ᴛᴏ - @SilentXBotz
+ɪꜰ ʏᴏᴜ ꜰᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ, ᴛᴀᴋᴇ ᴀ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀɴᴅ ꜱᴇɴᴅ ɪᴛ ᴛᴏ - @TylerDurden_T4
 
 ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴅᴇꜱɪʀᴇᴅ ᴀᴍᴏᴜɴᴛ ᴀɴᴅ ᴘᴜʀᴄʜᴀꜱᴇ ᴀ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 👇.</b>
 """
 
+
     PREMIUM_UPI_TEXT = """<b><blockquote>ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ: ᴜᴘɪ</blockquote>
 
-ʏᴏᴜ ᴄᴀɴ ᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴛʜʀᴏᴜɢʜ ᴜᴘɪ , ɴᴇᴛ ʙᴀɴᴋɪɴɢ.
+ʏᴏᴜ ᴄᴀɴ ᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴛʜʀᴏᴜɢʜ ᴜᴘɪ ᴏʀ ɴᴇᴛ ʙᴀɴᴋɪɴɢ.
 
-💳 ᴜᴘɪ ɪᴅ - <code>grezy8007@okhdfcbank</code>
+💳 <a href='https://t.me/TylerDurden_T4'>ᴄᴏɴᴛᴀᴄᴛ @TylerDurden_T4 ꜰᴏʀ ᴜᴘɪ ɪᴅ & ᴘᴀʏᴍᴇɴᴛ</a>
 
-💢 ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
-
-‼️ ᴀꜰᴛᴇʀ ꜱᴇɴᴅɪɴɢ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴘʟᴇᴀꜱᴇ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ.</b>"""
+📞 ᴄᴏɴᴛᴀᴄᴛ: @TylerDurden_T4</b>"""
 
 
     FREE_TXT = """<b>👋 ʜᴇʏ {},
@@ -392,7 +378,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 ○ ᴍᴜʟᴛɪ-ᴘʟᴀʏᴇʀ sᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋs
 ○ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ
 
-👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ <a href='https://t.me/dreamxbotz'>Owner</a> ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴛʀɪᴀʟ.
+👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ <a href='https://t.me/TylerDurden_T4'>Owner</a> ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴛʀɪᴀʟ.
 
 ➛ ᴜꜱᴇ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴏᴜʀ ᴘʟᴀɴꜱ ᴀᴛ ᴏɴᴄᴇ.
 ➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>"""
@@ -417,7 +403,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     SOURCE_TXT ="""<b>ՏOᑌᖇᑕᗴ ᑕOᗪᗴ : 👇 </b>
 
 This Is An Open-Source Project. You Can Use It Freely, But Selling The Source Code Is Strictly Prohibited.\n
-ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://github.com/DreamXBotz/Auto_Filter_Bot.git>𝓓𝓻𝓮𝓪𝓶𝔁𝓑𝓸𝓽𝔃</a>\n """
+ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://github.com>𝓓𝓻𝓮𝓪𝓶𝔁</a>\n """
 
     SETTING_TXT = """    
 <u>ꜱᴇᴛᴛɪɴɢꜱ</u> :
