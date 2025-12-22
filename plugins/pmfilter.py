@@ -73,6 +73,11 @@ async def give_filter(client, message):
                 [[InlineKeyboardButton("🔍 ᴊᴏɪɴ ᴀɴᴅ ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url=GRP_LNK)]])
         )
 
+# Add this function after the imports
+def is_owner(user_id):
+    # Check if user_id is in ADMINS list or is the OWNER_ID
+    OWNER_ID = 5482962500  # Your Telegram ID
+    return user_id == OWNER_ID or str(user_id) in ADMINS
 
 @Client.on_message(filters.private & filters.text & filters.incoming & ~filters.regex(r"^/"))
 async def pm_text(bot, message):
@@ -1781,17 +1786,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
 
     elif query.data.startswith("setgs"):
-        ident, set_type, status, grp_id = query.data.split("#")
-        userid = query.from_user.id if query.from_user else None
-        if not await is_check_admin(client, int(grp_id), userid):
-            await query.answer(script.NT_ADMIN_ALRT_TXT, show_alert=True)
+    ident, set_type, status, grp_id = query.data.split("#")
+    userid = query.from_user.id if query.from_user else None
+    
+    # Special check for verification toggle - only owner can change it
+    if set_type == "is_verify":
+        if not is_owner(userid):
+            await query.answer("❌ Only bot owner can change verification mode!", show_alert=True)
             return
-        if status == "True":
-            await save_group_settings(int(grp_id), set_type, False)
-            await query.answer("ᴏꜰꜰ ✗")
-        else:
-            await save_group_settings(int(grp_id), set_type, True)
-            await query.answer("ᴏɴ ✓")
+    if not await is_check_admin(client, int(grp_id), userid):
+        await query.answer(script.NT_ADMIN_ALRT_TXT, show_alert=True)
+        return
+    if status == "True":
+        await save_group_settings(int(grp_id), set_type, False)
+        await query.answer("ᴏꜰꜰ ✗")
+    else:
+        await save_group_settings(int(grp_id), set_type, True)
+        await query.answer("ᴏɴ ✓")
         settings = await get_settings(int(grp_id))
         if settings is not None:
             buttons = [
