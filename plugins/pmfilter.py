@@ -1785,24 +1785,27 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(group_list)
         )
 
-    elif query.data.startswith("setgs"):
-    ident, set_type, status, grp_id = query.data.split("#")
-    userid = query.from_user.id if query.from_user else None
-    
-    # Special check for verification toggle - only owner can change it
-    if set_type == "is_verify":
-        if not is_owner(userid):
-            await query.answer("❌ Only bot owner can change verification mode!", show_alert=True)
+        elif query.data.startswith("setgs"):
+        ident, set_type, status, grp_id = query.data.split("#")
+        userid = query.from_user.id if query.from_user else None
+        
+        # Special check for verification toggle - only owner can change it
+        if set_type == "is_verify":
+            if not is_owner(userid):
+                await query.answer("❌ Only bot owner can change verification mode!", show_alert=True)
+                return
+        
+        if not await is_check_admin(client, int(grp_id), userid):
+            await query.answer(script.NT_ADMIN_ALRT_TXT, show_alert=True)
             return
-    if not await is_check_admin(client, int(grp_id), userid):
-        await query.answer(script.NT_ADMIN_ALRT_TXT, show_alert=True)
-        return
-    if status == "True":
-        await save_group_settings(int(grp_id), set_type, False)
-        await query.answer("ᴏꜰꜰ ✗")
-    else:
-        await save_group_settings(int(grp_id), set_type, True)
-        await query.answer("ᴏɴ ✓")
+        
+        if status == "True":
+            await save_group_settings(int(grp_id), set_type, False)
+            await query.answer("ᴏꜰꜰ ✗")
+        else:
+            await save_group_settings(int(grp_id), set_type, True)
+            await query.answer("ᴏɴ ✓")
+        
         settings = await get_settings(int(grp_id))
         if settings is not None:
             buttons = [
@@ -1866,7 +1869,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer(MSG_ALRT)
+        
+        await query.answer(MSG_ALRT)
 
 
 async def auto_filter(client, msg, spoll=False):
