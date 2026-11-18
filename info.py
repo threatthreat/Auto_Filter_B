@@ -105,14 +105,14 @@ TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Bombardiro_Crocodiloa")   #
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/Bombardiro_Crocodiloa")   # Third tutorial link for verification
 
 # Verification (Must Fill All Veriables. Else You Got Error
-SHORTENER_API = environ.get("SHORTENER_API", "54528f37e15baa266842ef63286e58ca152896cb")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "softurl.in")
+SHORTENER_API = environ.get("SHORTENER_API", "4c395c45a5e040a6940c0a52da018f446a402cbc")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "vplink.in")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "54528f37e15baa266842ef63286e58ca152896cb")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "softurl.in")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "4c395c45a5e040a6940c0a52da018f446a402cbc")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "vplink.in")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "54528f37e15baa266842ef63286e58ca152896cb")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "softurl.in")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "4c395c45a5e040a6940c0a52da018f446a402cbc")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "vplink.in")
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "36000")) # Time gap for two-step verification in seconds (default: 20 minutes)
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "36000"))    
